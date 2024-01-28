@@ -1,0 +1,1 @@
+# GXDCompressTS2Core
