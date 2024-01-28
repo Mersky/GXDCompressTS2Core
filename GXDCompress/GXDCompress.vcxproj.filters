@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{aa3333e2-f442-4d96-bda9-78828801c4e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{2c84e243-dd29-48e8-814e-91a29b9a9140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{37d11885-c21a-49af-86f0-2ec0073b7bbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\Connect">
+      <UniqueIdentifier>{58e01586-f935-4478-899f-05755fb596d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GXDCompress">
+      <UniqueIdentifier>{6484cfff-8c37-44c5-b9fb-a1d819d6931c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="GXDCompress.h">
+      <Filter>GXDCompress</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Connect.cpp">
+      <Filter>Hooks\Connect</Filter>
+    </ClCompile>
+    <ClCompile Include="GXDCompress.cpp">
+      <Filter>GXDCompress</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
